@@ -1,0 +1,8 @@
+def handshakes(n):
+    combinations = n * (n - 1) // 2
+    return combinations
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    result = handshakes(n)
+    print(result)
